@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- REMIX ICON LIBRARY CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <main>
+      <!-- FIND BEST HOME SECTION -->
+      <section id="findBestHome" class="bg-fadeWhite common-padding">
+        <div class="container">
+          <div class="mb-[48px] text-center sm:text-start">
+            <h2>Find The Best home with Us</h2>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="bg-fadeGrey rounded-2xl p-[24px]">
+              <div
+                class="flex flex-col gap-y-4 md:gap-y-0 items-center md:flex-row md:items-start justify-between"
+              >
+                <div
+                  class="max-w-[271px] w-full space-y-10 text-center md:text-start"
+                >
+                  <h3>Consultation</h3>
+                  <p class="font-accent text-lg sm:text-2xl font-medium">
+                    We are ready to help, Consult your property options with us.
+                  </p>
+                  <a href="#" class="secondary-btn">
+                    <span class="capitalize me-3">start chat</span>
+                    <span class="text-secondary"
+                      ><i class="ri-arrow-right-line"></i
+                    ></span>
+                  </a>
+                </div>
+                <figure>
+                  <img src="./assets/images/home_page/ftb-1.png" alt="girl" />
+                </figure>
+              </div>
+            </div>
+            <div class="bg-fadeGrey rounded-2xl p-[24px]">
+              <div
+                class="flex flex-col gap-y-4 md:gap-y-0 items-center md:flex-row md:items-start justify-between"
+              >
+                <div
+                  class="max-w-[271px] w-full space-y-10 text-center md:text-start"
+                >
+                  <h3>Calculator</h3>
+                  <p class="font-accent text-lg sm:text-2xl font-medium">
+                    We are ready to help, Consult your property options with us.
+                  </p>
+                  <a href="#" class="secondary-btn">
+                    <span class="capitalize me-3">calculate</span>
+                    <span class="text-secondary"
+                      ><i class="ri-arrow-right-line"></i
+                    ></span>
+                  </a>
+                </div>
+                <figure>
+                  <img
+                    src="./assets/images/home_page/ftb-2.png"
+                    alt="Calculator"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="common-padding bg-fadeGrey">
+        <div class="container">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- images -->
+            <div
+              class="relative flex justify-center items-center h-[350px] sm:h-[400px]"
+            >
+              <!-- Left Image -->
+              <figure class="absolute left-10 z-[1]">
+                <img
+                  src="./assets/images/home_page/contact-2.png"
+                  class="rounded-3xl w-full"
+                />
+              </figure>
+
+              <!-- Center Image -->
+              <figure class="absolute bottom-30 z-[3]">
+                <img
+                  src="./assets/images/home_page/contact-1.png"
+                  class="rounded-3xl w-full"
+                />
+              </figure>
+
+              <!-- Right Image -->
+              <figure class="absolute right-10 top-10 z-[1]">
+                <img
+                  src="./assets/images/home_page/contact-3.png"
+                  class="rounded-3xl w-full"
+                />
+              </figure>
+            </div>
+
+            <!-- form -->
+            <div id="rightPart">
+              <div class="text-center sm:text-start mb-[64px]">
+                <h2 class="mb-4">
+                  Get In Touch <br />
+                  With Our Experts
+                </h2>
+                <p class="font-accent text-lg sm:text-2xl">
+                  A 30-min discovery call to see how we can help.
+                </p>
+              </div>
+
+              <form class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div>
+                    <label class="text-gray-500 text-sm">Name</label>
+                    <input
+                      type="text"
+                      class="w-full border-b border-gray-400 bg-transparent outline-none focus:border-black py-1"
+                    />
+                  </div>
+
+                  <div>
+                    <label class="text-gray-500 text-sm"
+                      >Email (required)</label
+                    >
+                    <input
+                      type="email"
+                      class="w-full border-b border-gray-400 bg-transparent outline-none focus:border-black py-1"
+                    />
+                  </div>
+
+                  <div>
+                    <label class="text-gray-500 text-sm">Phone Number</label>
+                    <input
+                      type="tel"
+                      class="w-full border-b border-gray-400 bg-transparent outline-none focus:border-black py-1"
+                    />
+                  </div>
+
+                  <div>
+                    <label class="text-gray-500 text-sm">Select Service</label>
+                    <select
+                      class="w-full border-b border-gray-400 bg-transparent outline-none focus:border-black py-1"
+                    >
+                      <option>Choose a service...</option>
+                      <option>Web Design</option>
+                      <option>Development</option>
+                      <option>SEO</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label class="text-gray-500 text-sm">Message</label>
+                  <textarea
+                    rows="3"
+                    class="w-full border-b border-gray-400 bg-transparent outline-none focus:border-black py-1"
+                  ></textarea>
+                </div>
+
+                <!-- Button -->
+                <button
+                  type="submit"
+                  href="#"
+                  class="bg-primary inline-flex justify-center items-center gap-3 rounded-4xl p-2 border border-transparent group hover:bg-white hover:border-primary transition-all duration-300 ease-in-out"
+                >
+                  <span
+                    class="text-white ps-6 group-hover:text-primary transition-all duration-300"
+                    >Send</span
+                  >
+                  <span
+                    class="w-[36px] h-[36px] flex justify-center items-center rounded-full bg-white group-hover:bg-primary transition-all duration-300"
+                  >
+                    <i
+                      class="ri-arrow-right-up-fill text-primary text-2xl group-hover:hidden transition-all duration-300"
+                    ></i>
+                    <i
+                      class="ri-arrow-right-fill hidden text-2xl group-hover:block group-hover:text-secondary transition-all duration-300"
+                    ></i>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ SECTION -->
+      <section id="faqSection" class="bg-fadeWhite common-padding">
+        <div class="container">
+          <div class="text-center sm:text-start mb-[40px]">
+            <h2>Have Question In Your Mind?</h2>
+          </div>
+          <div class="container mx-auto px-4 py-16">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+              <!-- left side -->
+              <div class="space-y-6">
+                <button
+                  class="w-full flex justify-between items-center border border-gray-400 rounded-full px-6 py-3 hover:bg-gray-100 transition"
+                >
+                  <span>1. Business Strategy</span>
+                  <span>+</span>
+                </button>
+
+                <button
+                  class="w-full flex justify-between items-center border border-gray-400 rounded-full px-6 py-3 hover:bg-gray-100 transition"
+                >
+                  <span>2. Business Strategy</span>
+                  <span>+</span>
+                </button>
+
+                <button
+                  class="w-full flex justify-between items-center border border-gray-400 rounded-full px-6 py-3 hover:bg-gray-100 transition"
+                >
+                  <span>3. Business Strategy</span>
+                  <span>+</span>
+                </button>
+
+                <button
+                  class="w-full flex justify-between items-center border border-gray-400 rounded-full px-6 py-3 hover:bg-gray-100 transition"
+                >
+                  <span>4. Business Strategy</span>
+                  <span>+</span>
+                </button>
+              </div>
+
+              <!-- right side -->
+              <div class="relative max-w-[500px] mx-auto">
+                <div class="w-full sm:w-[70%]">
+                  <img
+                    src="./assets/images/home_page/faq-1.png"
+                    alt="back image"
+                    class="w-full h-auto rounded-2xl"
+                  />
+                </div>
+
+                <div
+                  class="mt-4 sm:mt-0 sm:absolute sm:top-[22%] sm:right-0 w-full sm:w-[70%] z-10"
+                >
+                  <img
+                    src="./assets/images/home_page/faq-2.png"
+                    alt="front image"
+                    class="w-full h-auto rounded-2xl shadow-2xl"
+                  />
+                </div>
+              </div>
+              <!-- <div class="relative">
+                <img src="./assets/images/home_page/faq-1.png" class="z-10" />
+                <img
+                  src="./assets/images/home_page/faq-2.png"
+                  class="absolute z-20  top-[20%] left-[50%]"
+                />
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="bg-primary common-padding">
+        <div class="container">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div class="max-w-[350px] w-full">
+              <a  href="#"><img src="./assets/images/home_page/logo.png" alt=""></a>
+              <p class="font-accent text-white pt-[80px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+
+            <div id="foot-items">
+              <p class="uppercase font-accent text-white mb-[44px] font-bold text-2xl">navigation</p>
+              <ul class="flex flex-col gap-4">
+                <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-home-smile-2-line"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">home</span>
+                </a></li>
+                <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-group-fill"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">About Us</span>
+                </a></li>
+                <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-building-line"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">Property list</span>
+                </a></li>
+                <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-customer-service-2-line"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">Services</span>
+                </a></li>
+                <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-arrow-left-down-box-fill"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">Blogs</span>
+                </a></li>
+              </ul>
+            </div>
+
+            <div id="foot-items">
+              <p class="uppercase font-accent text-white mb-[44px] font-bold text-2xl">contacts</p>
+              <ul class="flex flex-col gap-4">
+                 <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-mail-line"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">imperial@mail.com</span>
+                </a></li>
+                 <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-phone-line"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">+28352032032-940</span>
+                </a></li>
+              </ul>
+            </div>
+
+             <div id="foot-items">
+              <p class="uppercase font-accent text-white mb-[44px] font-bold text-2xl">social media</p>
+              <ul class="flex flex-col gap-4 mb-8">
+                 <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-instagram-line"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">Instagram</span>
+                </a></li>
+                 <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-facebook-fill"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">Facebook</span>
+                </a></li>
+                 <li class="group"><a class="flex gap-4 items-center" href="#">
+                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-twitter-line"></i></span>
+                  <span class="capitalize text-white group-hover:text-secondary transition-all">Twitter</span>
+                </a></li>
+              </ul>
+
+              <div class="flex justify-end"><a class="w-[64px] h-[64px] rounded-full bg-white border border-secondary flex items-center justify-center text-3xl text-secondary hover:text-white hover:bg-secondary transition-all" href="#"><i class="ri-arrow-up-s-line"></i></a></div>
+            </div>
+          </div>
+          <div class="flex justify-between pt-[40px]">
+            <div><p class="text-white">2026 ALL RESERVED BY <a href="#">ARI</a></p></div>
+            <div class="flex gap-5 text-white">
+              <a href="#">Offers</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Cookie Settings</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

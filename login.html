@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <div class="flex flex-col md:flex-row">
+        <div id="left" class=" hidden md:block bg-[url('../assets/images/login_page/login-photo.png')] bg-cover bg-center bg-no-repeat flex-1 p-20">
+            <div class="flex flex-col justify-between h-full">
+                <figure><img src="./assets/images/home_page/logo.png" alt=""></figure>
+                <div class="text-white">
+                <h2 id="heading" class="mb-4 text-white">Find your sweet home</h2>
+                <p>Schedule visits in just a few clicks and discover a  curated collection of premium estates.</p>
+            </div>
+            </div>
+            
+        </div>
+        <div id="right" class="flex-1 p-8 md:p-20">
+            <div class="mb-6">
+                <h2 class="text-primary mb-4">Welcome Back to Realnest</h2>
+                <p class="font-accent text-slate-600">Sign in your account to continue your journey.</p>
+            </div>
+            <form>
+                <div class="flex flex-col gap-3 font-accent mb-5">
+                    <label for="mail">YOUR EMAIL</label>
+                    <input class="border border-slate-400 rounded-lg p-3 focus:outline-secondary" type="email" name="mail" id="mail" placeholder="name@example.com">
+                </div>
+                <div class="flex flex-col gap-3 font-accent mb-5">
+                    <label for="psd">PASSWORD</label>
+                    <input class="border border-slate-400 rounded-lg p-3 focus:outline-secondary" type="password" name="password" id="psd" placeholder="••••••••">
+                </div>
+                <div class="flex flex-col md:flex-row gap-3 items-center md:gap-0 md:items-start  md:justify-between mb-8">
+                    <div class="flex gap-3 items-center font-accent">
+                        <input class="accent-secondary" type="checkbox" name="check" id="check">
+                        <label class="text-slate-600" for="check">Remember Me</label>
+                    </div>
+                    <div class="font-accent">
+                        <a class="hover:text-slate-400 transition" href="#">Forgot Password?</a>
+                    </div>
+                </div>
+                <button class="primary-btn w-full" type="submit">Login</button>
+
+                <div class="h-[1px] bg-slate-300 w-full mt-8 relative mb-10">
+                    <span class="bg-white px-3 absolute op-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap" >INSTANT LOGIN IN</span>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-3 mb-6">
+                    <a class="flex gap-1 items-center border px-4 py-2 border-slate-300 rounded-lg w-full justify-center hover:border-secondary transition" href="#">
+                        <span><img src="./assets/images/login_page/goog.png" alt=""></span>
+                        <span>Google</span>
+                    </a>
+                    <a class="flex gap-1 items-center border px-4 py-2 border-slate-300 rounded-lg w-full justify-center hover:border-secondary transition" href="#">
+                        <span><img src="./assets/images/login_page/fc.png" alt=""></span>
+                        <span>Facebook</span>
+                    </a>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center sm:items-start sm:justify-center gap-2 font-accent">
+                    <p>Don't have any account? </p>
+                    <a class="text-blue-700 hover:text-gray-500 transition" href="#">Register</a>
+                </div>
+            </form>
+
+            <div class="flex flex-col md:flex-row gap-2 md:gap-0 justify-center items-center md:items-start  md:justify-between pt-14">
+                <div class="flex gap-3 font-accent">
+                    <a href="#">PRIVACY POLICY</a>
+                    <a href="#">TERMS</a>
+                </div>
+                <div class="font-accent">
+                    <p>© 2026 <a href="#">name</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>
