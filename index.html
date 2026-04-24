@@ -207,34 +207,84 @@
           <div class="container mx-auto px-4 py-16">
             <div class="grid md:grid-cols-2 gap-10 items-center">
               <!-- left side -->
-              <div class="space-y-6">
-                <button
-                  class="w-full flex justify-between items-center border border-gray-400 rounded-full px-6 py-3 hover:bg-gray-100 transition"
-                >
-                  <span>1. Business Strategy</span>
-                  <span>+</span>
-                </button>
 
-                <button
-                  class="w-full flex justify-between items-center border border-gray-400 rounded-full px-6 py-3 hover:bg-gray-100 transition"
+              <div class="space-y-4">
+                <!-- Item 1 -->
+                <details
+                  class="group border border-gray-400 rounded-2xl p-0 overflow-hidden"
                 >
-                  <span>2. Business Strategy</span>
-                  <span>+</span>
-                </button>
+                  <summary
+                    class="flex justify-between items-center px-6 py-4 cursor-pointer list-none"
+                  >
+                    <span>1. Business Strategy</span>
+                    <span
+                      class="transition-transform duration-300 group-open:rotate-45"
+                      >+</span
+                    >
+                  </summary>
 
-                <button
-                  class="w-full flex justify-between items-center border border-gray-400 rounded-full px-6 py-3 hover:bg-gray-100 transition"
-                >
-                  <span>3. Business Strategy</span>
-                  <span>+</span>
-                </button>
+                  <div class="px-6 pb-4 text-gray-600">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Strategy details go here.
+                  </div>
+                </details>
 
-                <button
-                  class="w-full flex justify-between items-center border border-gray-400 rounded-full px-6 py-3 hover:bg-gray-100 transition"
+                <!-- Item 2 -->
+                <details
+                  class="group border border-gray-400 rounded-2xl overflow-hidden"
                 >
-                  <span>4. Business Strategy</span>
-                  <span>+</span>
-                </button>
+                  <summary
+                    class="flex justify-between items-center px-6 py-4 cursor-pointer list-none"
+                  >
+                    <span>2. Business Strategy</span>
+                    <span
+                      class="transition-transform duration-300 group-open:rotate-45"
+                      >+</span
+                    >
+                  </summary>
+
+                  <div class="px-6 pb-4 text-gray-600">
+                    More content for this section.
+                  </div>
+                </details>
+
+                <!-- Item 3 -->
+                <details
+                  class="group border border-gray-400 rounded-2xl overflow-hidden"
+                >
+                  <summary
+                    class="flex justify-between items-center px-6 py-4 cursor-pointer list-none"
+                  >
+                    <span>3. Business Strategy</span>
+                    <span
+                      class="transition-transform duration-300 group-open:rotate-45"
+                      >+</span
+                    >
+                  </summary>
+
+                  <div class="px-6 pb-4 text-gray-600">
+                    More content for this section.
+                  </div>
+                </details>
+
+                <!-- Item 4 -->
+                <details
+                  class="group border border-gray-400 rounded-2xl overflow-hidden"
+                >
+                  <summary
+                    class="flex justify-between items-center px-6 py-4 cursor-pointer list-none"
+                  >
+                    <span>4. Business Strategy</span>
+                    <span
+                      class="transition-transform duration-300 group-open:rotate-45"
+                      >+</span
+                    >
+                  </summary>
+
+                  <div class="px-6 pb-4 text-gray-600">
+                    More content for this section.
+                  </div>
+                </details>
               </div>
 
               <!-- right side -->
@@ -257,13 +307,6 @@
                   />
                 </div>
               </div>
-              <!-- <div class="relative">
-                <img src="./assets/images/home_page/faq-1.png" class="z-10" />
-                <img
-                  src="./assets/images/home_page/faq-2.png"
-                  class="absolute z-20  top-[20%] left-[50%]"
-                />
-              </div> -->
             </div>
           </div>
         </div>
@@ -274,72 +317,177 @@
         <div class="container">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             <div class="max-w-[350px] w-full">
-              <a  href="#"><img src="./assets/images/home_page/logo.png" alt=""></a>
-              <p class="font-accent text-white pt-[80px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <a href="#"
+                ><img src="./assets/images/home_page/logo.png" alt=""
+              /></a>
+              <p class="font-accent text-white pt-[80px]">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
             </div>
 
             <div id="foot-items">
-              <p class="uppercase font-accent text-white mb-[44px] font-bold text-2xl">navigation</p>
+              <p
+                class="uppercase font-accent text-white mb-[44px] font-bold text-2xl"
+              >
+                navigation
+              </p>
               <ul class="flex flex-col gap-4">
-                <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-home-smile-2-line"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">home</span>
-                </a></li>
-                <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-group-fill"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">About Us</span>
-                </a></li>
-                <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-building-line"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">Property list</span>
-                </a></li>
-                <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-customer-service-2-line"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">Services</span>
-                </a></li>
-                <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-arrow-left-down-box-fill"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">Blogs</span>
-                </a></li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-home-smile-2-line"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >home</span
+                    >
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-group-fill"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >About Us</span
+                    >
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-building-line"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >Property list</span
+                    >
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-customer-service-2-line"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >Services</span
+                    >
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-arrow-left-down-box-fill"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >Blogs</span
+                    >
+                  </a>
+                </li>
               </ul>
             </div>
 
             <div id="foot-items">
-              <p class="uppercase font-accent text-white mb-[44px] font-bold text-2xl">contacts</p>
+              <p
+                class="uppercase font-accent text-white mb-[44px] font-bold text-2xl"
+              >
+                contacts
+              </p>
               <ul class="flex flex-col gap-4">
-                 <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-mail-line"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">imperial@mail.com</span>
-                </a></li>
-                 <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-phone-line"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">+28352032032-940</span>
-                </a></li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-mail-line"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >imperial@mail.com</span
+                    >
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-phone-line"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >+28352032032-940</span
+                    >
+                  </a>
+                </li>
               </ul>
             </div>
 
-             <div id="foot-items">
-              <p class="uppercase font-accent text-white mb-[44px] font-bold text-2xl">social media</p>
+            <div id="foot-items">
+              <p
+                class="uppercase font-accent text-white mb-[44px] font-bold text-2xl"
+              >
+                social media
+              </p>
               <ul class="flex flex-col gap-4 mb-8">
-                 <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-instagram-line"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">Instagram</span>
-                </a></li>
-                 <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-facebook-fill"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">Facebook</span>
-                </a></li>
-                 <li class="group"><a class="flex gap-4 items-center" href="#">
-                  <span class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"><i class="ri-twitter-line"></i></span>
-                  <span class="capitalize text-white group-hover:text-secondary transition-all">Twitter</span>
-                </a></li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-instagram-line"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >Instagram</span
+                    >
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-facebook-fill"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >Facebook</span
+                    >
+                  </a>
+                </li>
+                <li class="group">
+                  <a class="flex gap-4 items-center" href="#">
+                    <span
+                      class="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-all"
+                      ><i class="ri-twitter-line"></i
+                    ></span>
+                    <span
+                      class="capitalize text-white group-hover:text-secondary transition-all"
+                      >Twitter</span
+                    >
+                  </a>
+                </li>
               </ul>
 
-              <div class="flex justify-end"><a class="w-[64px] h-[64px] rounded-full bg-white border border-secondary flex items-center justify-center text-3xl text-secondary hover:text-white hover:bg-secondary transition-all" href="#"><i class="ri-arrow-up-s-line"></i></a></div>
+              <div class="flex justify-end">
+                <a
+                  class="w-[64px] h-[64px] rounded-full bg-white border border-secondary flex items-center justify-center text-3xl text-secondary hover:text-white hover:bg-secondary transition-all"
+                  href="#"
+                  ><i class="ri-arrow-up-s-line"></i
+                ></a>
+              </div>
             </div>
           </div>
           <div class="flex justify-between pt-[40px]">
-            <div><p class="text-white">2026 ALL RESERVED BY <a href="#">ARI</a></p></div>
+            <div>
+              <p class="text-white">2026 ALL RESERVED BY <a href="#">ARI</a></p>
+            </div>
             <div class="flex gap-5 text-white">
               <a href="#">Offers</a>
               <a href="#">Privacy Policy</a>
@@ -349,5 +497,6 @@
         </div>
       </footer>
     </main>
+    <script src="./js/main.js"></script>
   </body>
 </html>
